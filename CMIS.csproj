@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -17,10 +17,7 @@
 
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
-    <Compile Remove="ClientApp\app\components\**" />
     <Content Remove="ClientApp\**" />
-    <EmbeddedResource Remove="ClientApp\app\components\**" />
-    <None Remove="ClientApp\app\components\**" />
   </ItemGroup>
 
   <ItemGroup>

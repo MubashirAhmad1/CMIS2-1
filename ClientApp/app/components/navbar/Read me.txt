@@ -1,0 +1,1 @@
+Be sure to link bootstrap.min.css first and than navbar.component.css last
