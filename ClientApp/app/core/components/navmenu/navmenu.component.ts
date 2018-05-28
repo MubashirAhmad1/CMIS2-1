@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+declare var $: any;
+
 
 @Component({
     selector: 'nav-menu',
@@ -6,4 +8,5 @@ import { Component } from '@angular/core';
     styleUrls: ['./navmenu.component.css']
 }) 
 export class NavMenuComponent {
+
 }

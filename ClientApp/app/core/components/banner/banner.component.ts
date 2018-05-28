@@ -1,5 +1,4 @@
 ﻿import { Component } from '@angular/core';
-
 @Component({
     selector: 'cmis-banner',
     templateUrl: './banner.component.html',
